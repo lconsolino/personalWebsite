@@ -1,0 +1,79 @@
+<script src="https://kit.fontawesome.com/2caaa9e7ac.js" crossorigin="anonymous"></script>
+{% extends 'layout.html' %}
+{% block body %}
+<h1>
+    Computer Science Portfolio
+</h1>
+<h1><br></h1>
+<h3><br></h3>
+<div class="center">
+    <h5>academic projects</h5>
+    <h1><i class="fa-solid fa-arrow-down"></i></h1>
+</div>
+<h1><br></h1>
+<h2>
+    Word Scramble Game
+</h2>
+<h4>
+    Spring 2022
+</h4>
+<img src="/static/createTask.png" style="height: 65%; margin-left: 20em; margin-right: 10em;">
+<!-- <video preload="auto" width="320" height="240" controls>
+    <source src="/static/createTask.mp4#t=0.5" type="video/mov">
+    Your browser does not support the video tag.
+</video> -->
+<video src="static/createTask.mp4#t=0.5" playsinline controls preload="metadata">
+    <source src="static/createTask.mp4#t=0.5" type="createTask/mp4">
+</video>
+<h5><br></h5>
+<h5> 
+    Objective: Create an app for AP Computer Science principles final project at Indian Hill High School
+</h5>
+<h5>
+    Material: MIT app inventor & CSV file
+</h5>
+<h5>
+    Process: created a CSV file with a condensed dictionary, and compared user input from keyboard to add points for case-insensitive answers. Randomly generated 6 letters and added pop up window for incorrect answers.
+</h5>
+<h5> <br>
+</h5>
+<h2>
+    Not Pictured 
+</h2>
+<h4>
+    Fall 2024
+</h4>
+<h5> 
+    Inheritance and polymorphism project: model amazon database (using C)
+</h5>
+<h5>
+    Heaps: algorithm that finds shortest path of words differing in one letter from start word to target word (using C)
+</h5>
+<h1><br></h1>
+<div class="center">
+    <h5>personal projects</h5>
+    <h1><i class="fa-solid fa-arrow-down"></i></h1>
+</div>
+<h1><br></h1>
+<h2>
+    Personal Website
+</h2>
+<h4>
+    Winter 2025
+</h4>
+<h5> 
+    Objective: Create a website to highlight projects
+</h5>
+<h5>
+    Material: HTML and python flask server
+</h5>
+<h5>
+    Process: Self-taught HTML language including templating and linking for images and other pages. 
+</h5>
+<h5><br></h5>
+{% endblock %}
+{% block sidebar %}
+    <a href="template1" target="_self" style=" color:rgb(22,23,24)">
+        Back to other portfolios 
+        </a>
+{% endblock %}
